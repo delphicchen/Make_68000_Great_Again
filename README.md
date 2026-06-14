@@ -44,8 +44,13 @@ physical board layout; the schematic netlist is unchanged.**
 | `顯示器擴充指南.md` | Adding a display (ESP32/FabGL serial terminal, or a bus video card) |
 | `設計隨筆.md` | Design notes (compute-power irony, "smart peripheral" philosophy) |
 
-Board files: `68000sbc.kicad_pcb` (4-layer, routed), `68000sbc.sch`,
-`PadRows.pretty/MC68HC000_PGA68.kicad_mod`.
+Board files:
+
+- **`68000sbc_v2.kicad_pcb`** — latest 4-layer layout: components re-placed,
+  fully re-routed, DRC-clean (0 unconnected, 0 copper violations). **Recommended.**
+- `68000sbc.kicad_pcb` — earlier 4-layer routed layout (kept for reference).
+- `68000sbc.sch` (schematic, shared by both), and the footprint
+  `PadRows.pretty/MC68HC000_PGA68.kicad_mod`.
 
 A reusable, board-agnostic version of the headless routing workflow also exists as
 a Claude Code skill (`kicad-autoroute`); it is not part of this repo.
