@@ -10,3 +10,9 @@ gerbers/
 *.lst
 *.bin
 *.srec
+
+# PGA68 conversion: local/backup artifacts (not for publishing)
+*.backup_*
+*.backup*
+68000sbc-backups/
+*.kicad_prl
