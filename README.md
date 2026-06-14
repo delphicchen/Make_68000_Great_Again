@@ -46,10 +46,12 @@ physical board layout; the schematic netlist is unchanged.**
 
 Board files:
 
-- **`68000sbc_v2.kicad_pcb`** — latest 4-layer layout: components re-placed,
-  fully re-routed, DRC-clean (0 unconnected, 0 copper violations). **Recommended.**
-- `68000sbc.kicad_pcb` — earlier 4-layer routed layout (kept for reference).
-- `68000sbc.sch` (schematic, shared by both), and the footprint
+- **`68000sbc.kicad_pcb`** — the board, opens by default with the
+  `68000sbc.kicad_pro` project. 4-layer layout with components re-placed and the
+  board fully re-routed; DRC-clean (0 unconnected, 0 copper/clearance violations).
+- `68000sbc_v1.kicad_pcb` — the earlier layout, kept for reference (open directly
+  in the PCB editor).
+- `68000sbc.sch` (schematic, shared), and the footprint
   `PadRows.pretty/MC68HC000_PGA68.kicad_mod`.
 
 A reusable, board-agnostic version of the headless routing workflow also exists as
