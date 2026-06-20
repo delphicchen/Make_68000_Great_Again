@@ -72,7 +72,9 @@ original project and is preserved unchanged here as
 
 If you want to actually build and run this, **read `README.original.md` first** —
 the part counts, firmware, and usage are all there. This PGA-68 board needs the
-same BOM, just with a PGA-socketed `MC68HC000RC` in place of the DIP-64 CPU.
+same BOM, just with a PGA-socketed `MC68HC000RC` in place of the DIP-64 CPU. A full
+English purchasing list for *this* board — generated from the actual footprints,
+with sockets, the 4-layer PCB spec, and build notes — is in **[`BOM.md`](BOM.md)**.
 
 ## License
 
